@@ -20,7 +20,7 @@ header {
     align-items: center;
     height: 4rem;
     width: 100%;
-    background: #052c6f
+    background: #72461c;
 }
 
 header .logo {
@@ -80,8 +80,22 @@ header nav a:hover {
 }
 
 header nav .selected {
-    background-color: #72461c;
+    background-color: #472505;
     color: rgb(215, 215, 225);
+}
+
+a {
+    text-decoration: underline;
+    color: #f6ce3a;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction:column;
+    width: 100%;
 }
 
 footer {
